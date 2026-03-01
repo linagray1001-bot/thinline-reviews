@@ -1,0 +1,15 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "ThinLine Reviews"
+paginate = 15
+enableRobotsTXT = true
+[params]
+  description = "Clean and focused anime reviews"
+  author = "ThinLine Reviews Team"
+[outputs]
+  home = ["HTML", "RSS"]
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+[markup.goldmark.renderer]
+  unsafe = true
